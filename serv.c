@@ -70,7 +70,7 @@ int main(){
             exit(EXIT_FAILURE);
         }
 
-        // Reception du nom du joueur 2 puis envoie du nom du joueur 1
+        // Reception d'un nombre ( 0 / 1 )
         int test[1024] = {0};
         valread1 = read( new_socket , test, 1024);
 
